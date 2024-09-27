@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+    color: white;
+    font-family: "Charis SIL", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "Charis SIL", system-ui;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    max-width: 90%;
+    text-align: center;
+}
+
+img {
+    max-width: 80%;
+}
